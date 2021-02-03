@@ -3,8 +3,8 @@ package ru.netology.managers;
 import ru.netology.domain.PurchaseItem;
 
 public class CartManager {
-    private PurchaseItem[] items = new PurchaseItem[0];
 
+    private PurchaseItem[] items = new PurchaseItem[0];
 
     public void add(PurchaseItem item) {
 

@@ -23,8 +23,6 @@ class CartManagerTest {
     @Test
     void shouldRemoveIfExists() {
         int idToRemove = 1;
-        PurchaseItem first = new PurchaseItem(1, 1, "first", 1, 1);
-
 
         manager.removeById(idToRemove);
 

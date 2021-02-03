@@ -16,5 +16,4 @@ public class PurchaseItem {
     private int count;
 
 
-    
 }
