@@ -26,6 +26,8 @@ public class CartManager {
         for (int i = 0; i < result.length; i++) {
             int index = items.length - i - 1;
             result[i] = items[index];
+
+
         }
         return result;
     }
@@ -38,6 +40,7 @@ public class CartManager {
         for (PurchaseItem item : items) {
             if (item.getId() != id) {
                 tmp[index] = item;
+                index++;
             }
         }
         items = tmp;
